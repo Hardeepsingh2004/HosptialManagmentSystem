@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hospital Management System
 
 ![Front End](FrontEnd.png)
@@ -66,3 +67,6 @@ tauseed
 
 ## If you like our project please leave a star ❤
 
+=======
+# HosptialManagmentSystem
+>>>>>>> be53df9340076b08d9372f0d8e6ee96589b2cfb4
