@@ -22,12 +22,12 @@
     <link rel="shortcut icon" href="{{ asset('images/' . ($settings['icon'] ?? 'default-icon.png')) }}" type="image/x-icon" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ config('app.url') }}css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}css/style.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}css/colors.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}css/versions.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}css/responsive.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}css/custom.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/colors.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/versions.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 
     <!-- Scripts -->
     <script src="{{ asset('js/modernizer.js') }}"></script>
@@ -39,7 +39,7 @@
     <!-- LOADER -->
     <div id="preloader">
         <a href="{{ url('/') }}">
-            <img class="preloader" src="{{ config('app.url') }}images/loaders/heart-loading2.gif" alt="loading">
+            <img class="preloader" src="{{ asset('images/loaders/heart-loading2.gif') }}" alt="loading">
         </a>
     </div>
 
@@ -52,7 +52,7 @@
                 <div class="right-header">
                     <div class="header-info">
                         <div class="info-inner">
-                            <span class="icontop"><img src="{{ config('app.url') }}images/phone-icon.png" alt="phone" onerror="this.src='{{ config('app.url') }}images/default-phone-icon.png';"></span>
+                            <span class="icontop"><img src="{{ asset('images/phone-icon.png') }}" alt="phone" onerror="this.src='{{ asset('images/default-phone-icon.png') }}';"></span>
                             <span class="iconcont"><a href="tel:{{ $settings['phone'] ?? '123 123 123' }}">{{ $settings['phone'] ?? '123 123 123' }}</a></span>
                         </div>
                         <div class="info-inner">
